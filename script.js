@@ -6,8 +6,10 @@ clicker.forEach((item) => {
         switch (target) {
             case "heart":
                 window.open(document.URL + "shapes/heart/heart.html");
+                break;
             case "triangle":
                 window.open(document.URL + "shapes/triangle/triangle.html")
+                break;
         }
     })
 })
