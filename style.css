@@ -1,0 +1,19 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+.clicker {
+    cursor: pointer;
+    color: rgb(181, 247, 184);
+    transition: color 0.2s ease-in-out;
+    text-shadow: 2px 2px 3px rgb(4, 0, 255);
+}
+
+.clicker:hover {
+    color: rgb(190, 166, 166);
+}
